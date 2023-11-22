@@ -6,7 +6,8 @@ on:
       - master
   schedule:
     - cron: '*/15 * * * *'
-
+  workflow_dispatch: # Put here!!
+  
 env:
   UPDATE_IPV4: true
   UPDATE_IPV6: false
