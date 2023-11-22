@@ -5,7 +5,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/720 * * * *'
   workflow_dispatch: # Put here!!
   
 env:
